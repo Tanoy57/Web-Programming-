@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6; /* Improved readability */
+  }
+  
+  header {
+    background: linear-gradient(to right, #708916, #055a2a);
+    color: white;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 10px 0 0;
+    font-size: 1.8rem; /* Adjusted for better proportion */
+  }
+  
+  /* Main Content */
+  main {
+    padding: 25px;
+    max-width: 900px;
+    margin: 20px auto; /* Added spacing around the main section */
+    background: white;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; /* Slightly reduced radius for a cleaner look */
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #a0cb12;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #095f2e;
+    font-size: 1.8rem; /* Improved visual hierarchy */
+  }
+  
+  section h3 {
+    text-align: center;
+    color: #0095da;
+    font-size: 1.5rem; /* Adjusted for better readability */
+    margin-bottom: 15px;
+  }
+  
+  section h4 {
+    color: #ef0808;
+    font-size: 1.2rem; /* Balanced with the rest of the text */
+    margin-bottom: 10px;
+  }
+  section h5 {
+    color: #ef0808;
+    font-size: .9rem; 
+    margin-bottom: 5px;
+  }
+  
+  section p {
+    color: #000000;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+  
+  .bold {
+    font-weight: bold;
+    font-size: .9rem;
+  }
+  
+  /* Media Gallery */
+  #media .gallery {
+    display: list-item;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Better scaling for smaller screens */
+    gap: 15px;
+  }
+  
+  #media .gallery img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px; /* Enhanced rounded effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out; /* Hover effect */
+  }
+  
+  #media .gallery img:hover {
+    transform: scale(1.05); /* Subtle zoom on hover */
+  }
+  
+  /* Video Section */
+  #video video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Technologies used hardware software */
+  #details {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #7f3f11;
+    
+  }
+  
+  /* Resources Section */
+  #resources ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #resources ul li {
+    margin: 6px 0;
+  }
+  
+  #resources ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold; 
+  }
+  
+  #resources ul li a:hover {
+    text-decoration: underline;
+    color: #055a2a;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background: linear-gradient(to right, #708916, #055a2a);
+    color: rgb(221, 255, 0);
+    padding: 20px 0;
+    margin-top: 50px;
+    font-size: 0.8rem;
+    border-top: 3px solid #c1db14;
+  }
+  
